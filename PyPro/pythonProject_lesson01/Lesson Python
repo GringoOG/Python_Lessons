@@ -1,0 +1,3 @@
+phraze = "Voloviny"
+
+print(phraze) 
