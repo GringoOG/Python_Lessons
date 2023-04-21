@@ -111,3 +111,21 @@ dir() #The dir() function returns all properties and methods of the specified ob
 
 
 from mymodule import person1 #  syntax of importing only the person1 dictionary of the "mymodule" module
+
+
+str="there are no traffic JamS Along The extra mile."
+
+#Type your answer here.
+str = str.capitalize()
+
+print(str)
+
+
+str="There are no traffic jams along the extra mile."
+#  Type your code here.
+
+# ans_1=str.startswith("A")
+print(ans_1)
+
+# ans_1= str.endswith(".")
+# ans_1=str.find("m")
