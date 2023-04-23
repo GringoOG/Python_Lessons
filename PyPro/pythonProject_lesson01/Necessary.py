@@ -129,3 +129,36 @@ print(ans_1)
 
 # ans_1= str.endswith(".")
 # ans_1=str.find("m")
+
+def stutter(word):
+	 return word[0:2] + '... ' + word[0:2] + '... ' + word + '?' #1st 2 letters and ..
+
+
+def distinct(data):
+  if len(data) == len(set(data)):
+    return True
+  else:
+    return False
+
+print(distinct([1, 5, 7, 9]))
+print(distinct([2, 4, 5, 5, 7, 9]))
+
+
+import random
+char_list = ["a","e","i","o","u"]
+random.shuffle(char_list)
+print("".join(char_list))
+
+
+def remove_nums(int_list):
+  position = 3 - 1
+  idx = 0
+  len_list = len(int_list)
+  while len_list > 0:
+    idx = (position + idx) % len_list
+    print(int_list.pop(idx))
+    len_list -= 1
+
+
+nums = [10, 20, 30, 40, 50, 60, 70, 80, 90]
+remove_nums(nums)
